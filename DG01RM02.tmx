@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="64" tileheight="64" nextobjectid="15">
+ <tileset firstgid="1" name="Grass Tile Sheet" tilewidth="64" tileheight="64" tilecount="96" columns="8">
+  <image source="Grass Tile Sheet.png" width="512" height="768"/>
+ </tileset>
+ <tileset firstgid="97" name="Granite Tile Sheet" tilewidth="64" tileheight="64" tilecount="96" columns="8">
+  <image source="Granite Tile Sheet.png" width="512" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="15" height="15">
+  <data encoding="csv">
+106,115,115,115,115,115,115,115,115,115,115,115,115,107,97,
+114,97,97,97,97,97,97,97,97,97,97,97,97,116,97,
+105,113,113,113,121,97,97,97,97,97,97,97,97,116,97,
+97,97,97,97,114,97,97,97,97,97,97,97,97,116,97,
+97,97,97,97,114,97,97,97,97,97,97,97,97,116,97,
+97,97,97,97,114,97,97,97,97,97,97,97,97,116,97,
+115,115,115,115,122,97,97,97,97,97,97,97,97,116,97,
+97,97,97,97,97,97,97,106,115,107,97,97,97,116,97,
+97,97,97,97,97,97,97,105,113,108,97,97,97,116,97,
+113,113,121,97,97,97,97,97,97,97,97,97,97,116,97,
+97,97,114,97,97,97,97,97,97,97,97,97,97,116,97,
+97,97,114,97,97,97,97,106,115,107,97,97,97,116,97,
+97,97,114,97,97,97,97,105,113,108,97,97,97,123,115,
+97,97,114,97,97,97,97,97,97,97,97,97,97,124,113,
+97,97,105,113,113,113,113,113,113,113,113,113,113,108,97
+</data>
+ </layer>
+ <objectgroup name="Collision">
+  <object id="2" x="1" y="167" width="277" height="239"/>
+  <object id="3" x="-6.66667" y="-1.33333" width="28" height="174.667"/>
+  <object id="4" x="2.66667" y="1.33333" width="988" height="21.3333"/>
+  <object id="5" x="873.333" y="-13.3333" width="92" height="805.333"/>
+  <object id="6" x="873.333" y="873.333" width="85.3333" height="86.6667"/>
+  <object id="7" x="1.33333" y="940" width="954.667" height="20"/>
+  <object id="8" x="1.33333" y="617.333" width="149.333" height="341.333"/>
+  <object id="9" x="449.333" y="448" width="188" height="126.667"/>
+  <object id="10" x="450.667" y="704" width="189.333" height="129.333"/>
+ </objectgroup>
+ <objectgroup name="warp">
+  <object id="13" name="warpRect0" x="-3" y="406" width="11" height="211.333">
+   <properties>
+    <property name="catX" value="150"/>
+    <property name="catY" value="180"/>
+    <property name="nextMap" value="rm01"/>
+    <property name="startingDirection" value="right"/>
+    <property name="warpIndex" value="0"/>
+   </properties>
+  </object>
+  <object id="14" name="warpRect1" x="949" y="793.333" width="9.9997" height="74.6667">
+   <properties>
+    <property name="startingDirection" value="left"/>
+    <property name="warpIndex" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

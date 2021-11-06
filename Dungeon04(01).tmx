@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="22" tilewidth="64" tileheight="64" nextobjectid="19">
+ <tileset firstgid="1" name="Granite Tile Sheet" tilewidth="64" tileheight="64" tilecount="96" columns="8">
+  <image source="Granite Tile Sheet.png" width="512" height="768"/>
+ </tileset>
+ <tileset firstgid="97" name="Grass Tile Sheet" tilewidth="64" tileheight="64" tilecount="96" columns="8">
+  <image source="Grass Tile Sheet.png" width="512" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="24" height="22">
+  <data encoding="csv">
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+5,10,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,11,5,5,5,5,5,5,
+5,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,5,5,5,5,5,5,
+5,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,5,5,5,5,5,5,
+5,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,27,19,19,19,19,19,19,
+5,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+5,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,28,17,25,1,1,28,17,
+5,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,5,18,1,1,20,33,
+5,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,5,18,1,1,20,33,
+5,9,17,17,17,17,17,17,17,17,17,17,25,1,1,28,17,12,5,18,1,1,20,33,
+5,5,5,5,5,5,5,5,5,5,5,5,18,1,1,20,5,5,5,18,1,1,20,33,
+5,5,5,5,5,5,5,5,5,5,5,5,18,1,1,20,5,5,5,18,1,1,20,33,
+10,19,19,19,19,19,19,19,19,19,19,19,26,1,1,20,5,5,5,18,1,1,20,33,
+18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,5,5,5,18,1,1,20,33,
+18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,5,5,5,18,1,1,20,33,
+18,1,1,1,1,1,1,1,1,1,1,1,1,28,17,12,5,5,5,18,1,1,20,33,
+18,1,1,1,1,1,1,1,1,1,1,1,1,20,5,5,5,5,5,18,1,1,20,33,
+18,1,1,1,1,1,1,1,1,1,1,1,1,20,5,5,5,5,5,18,1,1,20,33,
+18,1,1,1,1,1,1,1,1,1,1,1,1,27,19,19,19,19,19,26,1,1,20,33,
+18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,20,33,
+9,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,12,33,
+33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33
+</data>
+ </layer>
+ <objectgroup name="Collision">
+  <object id="1" x="12" y="9" width="1161" height="80"/>
+  <object id="2" x="18" y="35" width="68" height="631"/>
+  <object id="4" x="37" y="618" width="753" height="38"/>
+  <object id="5" x="730" y="618" width="61" height="170"/>
+  <object id="6" x="5" y="730" width="788" height="61"/>
+  <object id="8" x="1" y="768" width="24" height="653"/>
+  <object id="11" x="2" y="1322" width="1522" height="54"/>
+  <object id="12" x="1450" y="428" width="84" height="984"/>
+  <object id="13" x="1120" y="18" width="58" height="256"/>
+  <object id="14" x="1118" y="206" width="420" height="74"/>
+  <object id="15" x="1134" y="424" width="102" height="754"/>
+  <object id="16" x="872" y="1000" width="366" height="174"/>
+  <object id="17" x="1002" y="614" width="226" height="562"/>
+ </objectgroup>
+ <objectgroup name="warp">
+  <object id="18" name="warpRect0" x="1498" y="276" width="40" height="154">
+   <properties>
+    <property name="startingDirection" value="left"/>
+    <property name="warpIndex" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

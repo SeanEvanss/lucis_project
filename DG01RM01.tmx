@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" nextobjectid="8">
+ <tileset firstgid="1" name="Granite Tile Sheet" tilewidth="64" tileheight="64" tilecount="96" columns="8">
+  <image source="Granite Tile Sheet.png" width="512" height="768"/>
+ </tileset>
+ <tileset firstgid="97" name="Grass Tile Sheet" tilewidth="64" tileheight="64" tilecount="96" columns="8">
+  <image source="Grass Tile Sheet.png" width="512" height="768"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="10">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,10,19,19,19,19,19,19,19,19,19,19,19,19,19,11,1,1,1,
+1,1,18,1,1,1,1,1,1,1,1,1,1,1,1,1,27,19,19,19,
+1,1,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,18,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,18,1,1,1,1,1,1,1,1,1,1,1,1,1,28,17,17,17,
+1,1,9,17,17,17,17,17,17,17,17,17,17,17,17,17,12,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup name="Collision">
+  <object id="1" x="40" y="10" width="1155" height="137"/>
+  <object id="2" x="1067" y="11" width="70" height="203"/>
+  <object id="3" x="1066" y="123" width="218" height="90"/>
+  <object id="4" x="1065" y="423" width="223" height="134"/>
+  <object id="5" x="92" y="491" width="1073" height="60"/>
+  <object id="6" x="77" y="110" width="73" height="392"/>
+ </objectgroup>
+ <objectgroup name="warp">
+  <object id="7" name="warpRect0" x="1268" y="213" width="11.67" height="210">
+   <properties>
+    <property name="catX" value="500"/>
+    <property name="catY" value="150"/>
+    <property name="nextMap" value="rm02"/>
+    <property name="startingDirection" value="left"/>
+    <property name="warpIndex" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
